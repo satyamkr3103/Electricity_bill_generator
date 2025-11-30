@@ -1,1 +1,88 @@
-# Electricity_bill_generator
+# âš¡ Electricity Bill Generator in C
+
+A simple and efficient *Electricity Bill Generator* built in **C
+language**.\
+This program calculates the electricity bill for *Residential*,
+*Commercial, and **Industrial* consumers based on slab-wise tariff
+rates.
+
+## ðŸ“Œ Features
+
+-   Takes *customer name*
+-   Takes *units consumed*
+-   Choose *customer type* (Residential / Commercial / Industrial)
+-   Calculates bill using *slab-based pricing*
+-   Generates a clean, user-friendly *bill output*
+
+## ðŸ§® Tariff Structure
+
+### *1ï¸âƒ£ Residential Consumers*
+
+  Units Range   Rate (â‚¹/unit)
+  ------------- ---------------
+  0--100        2.00
+  101--300      3.50
+  Above 300     5.00
+
+### *2ï¸âƒ£ Commercial Consumers*
+
+  Units Range   Rate (â‚¹/unit)
+  ------------- ---------------
+  0--200        5.00
+  201--500      7.50
+  Above 500     10.00
+
+### *3ï¸âƒ£ Industrial Consumers*
+
+  Units Range   Rate (â‚¹/unit)
+  ------------- ---------------
+  0--500        10.00
+  501--1000     12.50
+  Above 1000    15.00
+
+## ðŸ“‚ Project Structure
+
+    ðŸ“ Electricity-Bill-Generator
+    â”‚â”€â”€ Electricity_bill_generator.c
+    â”‚â”€â”€ README.md
+
+## â–¶ï¸ How to Compile and Run
+
+### *Compile the program*
+
+ bash
+gcc Electricity_bill_generator.c -o bill
+
+
+### *Run the program*
+
+ bash
+./bill
+
+
+## ðŸ–¥ï¸ Sample Output
+
+    ==== ELECTRICITY BILL ====
+    Customer Name : Rahul
+    Units Consumed: 250.00
+    Customer Type : Residential
+    Total Bill    : XXXX.XX
+
+## ðŸ§© Code Overview
+
+-   *calculateResidential()* â†’ Calculates bill for residential users\
+-   *calculateCommercial()* â†’ Calculates commercial bill\
+-   *calculateIndustrial()* â†’ Calculates industrial bill\
+-   Uses *if--else slab calculations* for accurate billing\
+-   Clean formatting for final bill display
+
+## ðŸš€ Possible Future Enhancements
+
+-   Add *GST* or extra service charges\
+-   Add option to *save bills to a file*\
+-   Add *looping* for multiple customers\
+-   Create a *menu-driven UI*
+
+## ðŸ·ï¸ Author
+
+*Satyam Kumar*
