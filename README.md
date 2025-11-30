@@ -21,7 +21,9 @@ rates.
   Units Range   Rate (₹/unit)
   ------------- ---------------
   0--100        2.00
+  
   101--300      3.50
+  
   Above 300     5.00
 
 ### **2️⃣ Commercial Consumers**
@@ -29,7 +31,9 @@ rates.
   Units Range   Rate (₹/unit)
   ------------- ---------------
   0--200        5.00
+  
   201--500      7.50
+  
   Above 500     10.00
 
 ### **3️⃣ Industrial Consumers**
@@ -37,6 +41,7 @@ rates.
   Units Range   Rate (₹/unit)
   ------------- ---------------
   0--500        8.00
+  
   Above 500     12.00
 
 ## 📂 Project Structure
